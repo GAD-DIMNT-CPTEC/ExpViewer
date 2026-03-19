@@ -56,6 +56,8 @@ Observe que a porta `8888` do Jupyter em execução na Egeon, será redirecionad
 
 Para acessar o notebook `plot_scores.ipynb` que contém o viez e a raiz do erro quadrático médio dos experimentos do SMNA, abra um navegador de internet e acesse o endereço `http://localhost:8887/lab/tree/plot_scores.ipynb` 
 
+<img width="1603" height="1570" alt="Screenshot_20260319_170932" src="https://github.com/user-attachments/assets/1f0fc1a5-306c-4cfa-9568-e8ec8f27cc40" />
+
 Além do script `plot_scores.ipynb` há também o script `plot_fields.py` que permite a intercomparação espacial dos campos dos experimentos. Para acessá-lo, o procedimento é semelhante:
 
 Em um novo terminal na Egeon, mas ainda no diretório `ExpViewer`, execute:
