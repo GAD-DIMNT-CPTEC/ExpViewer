@@ -72,6 +72,8 @@ ssh -N -f -L localhost:5006:localhost:5006 usario@egeon.cptec.inpe.br
 
 Depois disso, abra uma nova aba no navegador e acesso o endereço `http://localhost:5006/plot_fields`
 
+<img width="1603" height="1570" alt="Screenshot_20260319_170448" src="https://github.com/user-attachments/assets/3f40011c-92f5-489c-86c0-f170ffd3cbc0" />
+
 **Notas:**
 
 * Os dados apresentados são lidos diretamente da Egeon
