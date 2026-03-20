@@ -1,4 +1,4 @@
-name: ExpViewer
+name: SMNA-Exps
 channels:
   - defaults
   - conda-forge
