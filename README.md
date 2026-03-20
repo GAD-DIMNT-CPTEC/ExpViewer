@@ -1,6 +1,4 @@
-# ExpViewer
-
-Visualizador de experimentos.
+# SMNA-Exps
 
 ## Objetivo
 
@@ -20,13 +18,13 @@ Escolha um local adequado na máquina (eg., `/mnt/beegfs/$USER`), faça o clone 
 ``` 
 cd /mnt/beegfs/$USER
 module load anaconda3-2022.05-gcc-11.2.0-q74p53i
-gh repo clone GAD-DIMNT-CPTEC/ExpViewer
-cd ExpViewer
+gh repo clone GAD-DIMNT-CPTEC/SMNA-Exps
+cd SMNA-Exps
 conda env create -f environment.yml
-conda activate ExpViewer
+conda activate SMNA-Exps
 ``` 
 
-Ainda dentro do diretório `ExpViewer`, execute:
+Ainda dentro do diretório `SMNA-Exps`, execute:
 
 ``` 
 jupyter-lab --no-browser
@@ -60,7 +58,7 @@ Para acessar o notebook `plot_scores.ipynb` que contém o viez e a raiz do erro 
 
 Além do script `plot_scores.ipynb` há também o script `plot_fields.py` que permite a intercomparação espacial dos campos dos experimentos. Para acessá-lo, o procedimento é semelhante:
 
-Em um novo terminal na Egeon, mas ainda no diretório `ExpViewer`, execute:
+Em um novo terminal na Egeon, mas ainda no diretório `SMNA-Exps`, execute:
 
 ``` 
 panel serve plot_fields.py --port 5006 --autoreload
